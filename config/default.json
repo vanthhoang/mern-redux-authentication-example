@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://test:test1234@cluster0-wiygp.mongodb.net/test?retryWrites=true",
-    "jwtSecret": "vanJWTSecret"
+    "mongoURI": "YOU NEED TO USE YOUR MONGO URI KEY HERE",
+    "jwtSecret": "GIVE IT A JWT Secret NAME"
 }
