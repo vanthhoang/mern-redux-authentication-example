@@ -1,4 +1,4 @@
 {
     "mongoURI": "YOU NEED TO USE YOUR MONGO URI KEY HERE",
-    "jwtSecret": "GIVE IT A JWT Secret NAME"
+    "jwtSecret": "GIVE IT A JWT SECRET NAME"
 }
