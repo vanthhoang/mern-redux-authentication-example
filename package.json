@@ -1,0 +1,27 @@
+{
+  "name": "form-example",
+  "version": "1.0.0",
+  "description": "Create a form to input and save email addresses",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "dev": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\"", 
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Van Hoang",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^4.1.0",
+    "config": "^3.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.22"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
